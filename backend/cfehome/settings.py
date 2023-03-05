@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
 
     # APPS:
+    'api',
     'product',
 ]
 
