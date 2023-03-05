@@ -16,7 +16,7 @@ def api_home(request, *args, **kwargs):
     if serializer.is_valid():
         print(serializer.data)
         return Response(serializer.data) 
-    return Response(serializer.errors)
+    return Response("Invslid")
     
      
 
